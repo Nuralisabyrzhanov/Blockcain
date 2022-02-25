@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block checking %}
+
+    {%for res in results%}
+    <div class="result">
+        block {{res}}
+    </div>
+
+<!--    .conteiner>row>.col-6 mx-auto text-center"-->
+
+    {%endfor%}
+{% endblock %}
